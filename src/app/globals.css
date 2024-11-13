@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/global.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .portfolio-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .portfolio-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-header h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .portfolio-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    margin-bottom: 40px;
+  }
+  
+  .projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    margin-bottom: 40px;
+  }
+  
+  .skills-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .skill-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .skill-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .skill-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .contact-section a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .projects {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skills {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
